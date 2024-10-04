@@ -1,0 +1,221 @@
+body
+{
+    font-size: 24px;
+    background-color: #333333;
+    opacity: 75%;
+}
+
+#main-menu
+{
+    margin: 240px 0;
+    padding: 10px;
+    background-color: wheat;
+}
+
+#container
+{
+    width: max;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mongolia
+{
+    background-image: url(mongolia.png);
+    width: 517.3px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 517.3px 200px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.japan
+{
+    background-image: url(japan.png);
+    width: 517.3px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 517.3px 200px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.logo
+{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1,h2,h3
+{
+    text-align: center;
+}
+
+h1
+{
+    background-color: #000;
+    padding: 20px;
+    margin: 0;
+    color: #fff;
+    border: 4px solid #ffdd80;
+}
+
+#footer
+{
+    background-color: black;
+    padding: 14px;
+    text-align: center;
+    color: white;
+}
+
+p
+{
+    text-align: justify;
+    line-height: 220%;
+    background-color: wheat;
+    padding: 10px;
+}
+
+.intro
+{
+    color: orangered;
+    line-height: 240%;
+    padding: 0 20px 15px 20px;
+    background-color: #222222;
+}
+
+#without > h2
+{
+    margin-top: 0;
+}
+
+h2
+{
+    background-color: #6fac3f;
+    padding: 14px;
+    text-shadow:
+        1px 1px 0 darkmagenta,
+        -1px 1px 0 darkmagenta,
+        -1px -1px 0 darkmagenta,
+        1px -1px 0 darkmagenta;
+}
+
+.intro.gray
+{
+    background-color: #222222;
+}
+
+a
+{
+    color: dodgerblue;
+    text-decoration: none;
+}
+
+h3
+{
+    background-color: #3c790c;
+    padding: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 270px;
+}
+
+#super-long
+{
+    width: 450px;
+}
+
+#long
+{
+    width: 420px;
+}
+
+.lower-long
+{
+    width: 270px;
+}
+
+#middle
+{
+    width: 230px;
+}
+
+.lower-middle
+{
+    width: 210px;
+}
+
+#short
+{
+    width: 190px;
+}
+
+#super-short
+{
+    width: 130px;
+}
+
+ol
+{
+    padding-left: 340px;
+    list-style-type: none;
+}
+
+ol > li
+{
+    text-transform: uppercase;
+}
+
+ol li
+{
+    padding: 14px;
+    color: blue;
+}
+
+ul > li
+{
+    color: dodgerblue;
+    text-transform: none;
+}
+
+ul > li:hover
+{
+    color: #3c790c;
+}
+
+ol > li > a:hover
+{
+    background-color: #6fac3f;
+    color: white;
+    text-shadow:
+        1px 1px 0 darkmagenta,
+        -1px 1px 0 darkmagenta,
+        -1px -1px 0 darkmagenta,
+        1px -1px 0 darkmagenta;
+    padding: 14px;
+}
+
+ol > li > a
+{
+    color: blue;
+}
+
+ul > li > a:hover
+{
+    color: white;
+    background-color: #3c790c;
+    padding: 10px;
+}
+
+h2 > a,
+h3 > a
+{
+    color: white;
+}
